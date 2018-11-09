@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {
+    background: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 100px;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.project1 {
+    background: #fff;
+}
