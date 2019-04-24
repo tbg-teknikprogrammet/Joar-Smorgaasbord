@@ -21,3 +21,7 @@ body {
     font-style: oblique;
     font-size: 161%;
 }
+
+.toggleBg {
+    background-color: #663399
+}

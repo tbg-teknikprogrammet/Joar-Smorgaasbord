@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(150, 31, 31);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 425px 425px 425px;
+    padding: 5px;
+    
+}
+
+.item {
+    border: solid black 2px;
+    height: 300px;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first button {
+    background-color: #777;
+    height: 50px;
+    width: 80px;
+    
+}
+
+.lightBox {
+    visibility: hidden;
+    background: rgb(201, 197, 197);
+    border: solid black 2px;
+    border-radius: 20px;
+    height: 250px;
+    width: 500px;
+    position: relative;
+    top: -425px;
+    left: 375px;
+}
+
+
+  
