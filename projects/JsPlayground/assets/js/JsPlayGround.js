@@ -6,6 +6,12 @@ LoginBtn.addEventListener("click", function() {
     lightBox.style.visibility = "visible";
     document.body.style.backgroundColor = " rgb(29, 6, 6)";
 })
+
+var exitLightBox = document.getElementById("EX")
+exitLightBox.addEventListener("click", function(){
+    lightBox.style.visibility = "hidden";
+    document.body.style.backgroundColor = " rgb(150, 31, 31)";
+})
   
 
 var p1Score = 0
