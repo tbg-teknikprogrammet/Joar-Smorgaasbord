@@ -22,6 +22,10 @@ body {
     align-items: center;
 }
 
+button {
+    background-color: rgb(71, 63, 63);
+}
+
 #first button {
     background-color: #777;
     height: 50px;
@@ -41,6 +45,26 @@ body {
     left: 375px;
 }
 
+#box3 button {
+    margin: 15px;
+}
+
+#box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box6 input {
+    margin: 15px;
+}
+
+
+
+.btndm {
+    margin: 20px;
+}
+
 #EX {
     margin-top: 5px;
     margin-left: 465px;
@@ -53,6 +77,10 @@ h2 {
 
 .epic {
     margin-left: 175px;
+}
+
+#smile{
+    width: 60%;
 }
 
   
